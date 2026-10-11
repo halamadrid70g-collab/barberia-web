@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Cortes modernos, fades y arreglo de barba. Reserva tu cita con nosotros.">
+  <meta name="theme-color" content="#101010">
+  <title>BLACKLINE | Barbería</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/script.js" defer></script>
+</head>
+<body>
+  <header class="site-header" id="inicio">
+    <a class="brand" href="#inicio" aria-label="Blackline, inicio">
+      <span class="brand-mark">B<span>.</span></span>
+      <span class="brand-name">BLACKLINE<small>BARBER STUDIO</small></span>
+    </a>
+    <button class="menu-toggle" aria-label="Abrir menú" aria-expanded="false" aria-controls="main-nav">
+      <span></span><span></span><span></span>
+    </button>
+    <nav class="main-nav" id="main-nav">
+      <a href="#inicio">Inicio</a>
+      <a href="#servicios">Servicios</a>
+      <a href="#nosotros">Nosotros</a>
+      <a href="#contacto">Contacto</a>
+      <a class="nav-cta" href="#contacto">Reservar cita <span>↗</span></a>
+    </nav>
+  </header>
+
+  <main>
+    <section class="hero">
+      <div class="hero-shade"></div>
+      <div class="hero-content">
+        <p class="eyebrow"><span></span> CORTE · ESTILO · ACTITUD</p>
+        <h1>Tu estilo.<br><em>Tu firma.</em></h1>
+        <p class="hero-copy">Más que un corte, una experiencia. Detalles precisos, buena energía y un estilo hecho para ti.</p>
+        <div class="hero-actions">
+          <a class="button button-gold" href="#contacto">Agenda tu cita <span>↗</span></a>
+          <a class="button button-ghost" href="#servicios">Ver servicios</a>
+        </div>
+        <div class="hero-note"><span class="note-line"></span> DETALLE EN CADA CORTE</div>
+      </div>
+      <div class="hero-index"><strong>01</strong><span>—</span> ESTILO ATEMPORAL</div>
+    </section>
+
+    <section class="qualities" aria-label="Lo que nos distingue">
+      <article><span class="quality-icon">✳</span><h3>Manos expertas</h3><p>Precisión y atención al detalle.</p></article>
+      <article><span class="quality-icon">◇</span><h3>Tu estilo, primero</h3><p>Un corte pensado para ti.</p></article>
+      <article><span class="quality-icon">◷</span><h3>Buena experiencia</h3><p>Un espacio para desconectar.</p></article>
+    </section>
+
+    <section class="section services" id="servicios">
+      <div class="section-heading">
+        <div><p class="eyebrow">EL MENÚ</p><h2>Servicios <em>seleccionados.</em></h2></div>
+        <p>Clásicos bien hechos y tendencias actuales. Elige tu próximo look.</p>
+      </div>
+      <div class="service-grid">
+        <article class="service-card">
+          <img src="https://images.unsplash.com/photo-1503951914875-452162b0f3f1?auto=format&fit=crop&w=900&q=85" alt="Interior de una barbería moderna" loading="lazy">
+          <div class="service-info"><div><h3>Corte clásico</h3><p>Un acabado limpio y atemporal.</p></div><strong>$150 <small>MXN</small></strong></div>
+        </article>
+        <article class="service-card">
+          <img src="https://images.unsplash.com/photo-1621605815971-fbc98d665033?auto=format&fit=crop&w=900&q=85" alt="Barbero trabajando en un corte moderno" loading="lazy">
+          <div class="service-info"><div><h3>Fade / degradado</h3><p>Transiciones limpias y precisas.</p></div><strong>$180 <small>MXN</small></strong></div>
+        </article>
+        <article class="service-card">
+          <img src="https://images.unsplash.com/photo-1622286342621-4bd786c2447c?auto=format&fit=crop&w=900&q=85" alt="Herramientas de barbería" loading="lazy">
+          <div class="service-info"><div><h3>Arreglo de barba</h3><p>Perfilado, forma y definición.</p></div><strong>$100 <small>MXN</small></strong></div>
+        </article>
+      </div>
+      <p class="price-note">*Precios de ejemplo: cámbialos por los precios reales del negocio.</p>
+    </section>
+
+    <section class="about" id="nosotros">
+      <div class="about-image" role="img" aria-label="Sillón en una barbería"></div>
+      <div class="about-copy">
+        <p class="eyebrow">SOBRE BLACKLINE</p>
+        <h2>El buen estilo<br>está en los <em>detalles.</em></h2>
+        <p>Creemos que un gran corte empieza escuchándote. Nuestro objetivo es que salgas con confianza, comodidad y un look que se sienta tuyo.</p>
+        <ul><li>Atención personalizada</li><li>Herramientas y productos de calidad</li><li>Ambiente relajado y profesional</li></ul>
+        <a class="text-link" href="#contacto">Ven a conocernos <span>↗</span></a>
+      </div>
+    </section>
+
+    <section class="booking section" id="contacto">
+      <div>
+        <p class="eyebrow">TU PRÓXIMO CORTE TE ESPERA</p>
+        <h2>¿Listo para renovar<br><em>tu estilo?</em></h2>
+        <p>Escríbenos para consultar horarios y reservar tu espacio.</p>
+      </div>
+      <a class="button button-gold booking-button" id="whatsapp-link" href="https://wa.me/5210000000000?text=Hola%2C%20quiero%20reservar%20una%20cita" target="_blank" rel="noopener noreferrer">Reservar por WhatsApp <span>↗</span></a>
+    </section>
+  </main>
+
+  <footer class="site-footer">
+    <a class="brand" href="#inicio"><span class="brand-mark">B<span>.</span></span><span class="brand-name">BLACKLINE<small>BARBER STUDIO</small></span></a>
+    <p>Tu estilo. Tu firma.</p>
+    <span class="copyright">© <span id="year"></span> BLACKLINE. Sitio de demostración.</span>
+  </footer>
+</body>
+</html>
